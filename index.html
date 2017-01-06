@@ -14,8 +14,9 @@ body {
 }
 #container {
     display: flex;
+    flex-flow: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     height: 500px;
     width: 500px;
     padding: 20px;
@@ -23,6 +24,11 @@ body {
     font: 24px/1.5 sans-serif;
     color: rgba(255, 255, 255, .9);
     font-weight: 200;
+}
+#links {
+    align-self: flex-start;
+    border: 1px solid black;
+    display: inline;
 }
 #content {
     background-color: rgba(244, 111, 100, .8);
@@ -38,6 +44,10 @@ body {
     designer</strong> specializing in <strong>User Experience</strong>, 
     based in Salt Lake City.
     </p>
+    <div id="links">
+      <a href="http://google.com" target="_blank">imma link</a>
+      <a href="http://google.com" target="_blank">imma link 2</a>
+    </div>
   </div>
 </body>
 </html>
