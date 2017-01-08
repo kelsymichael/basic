@@ -7,6 +7,7 @@ Utilizing the latest in single .html websites, this basic ass site will help you
 * ROI - 1000000x
 * Productivity - _shitloads_
 * $$$ - infinite
+* Run 1mile in < 20mins
 
 ---
 Don't *waste* time making a *shitty* website with a bunch of frameworks.
