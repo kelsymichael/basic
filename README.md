@@ -4,9 +4,9 @@
 ## Executive Summary
 Utilizing the latest in single .html websites, this basic ass site will help you succeed and get that funding you deserve.
 
-* ROI - 1000000x
+* ROI - *1000000x*
 * Productivity - _shitloads_
-* $$$ - infinite
+* $$$ - *infinite*
 * Run 1mile in < 20mins
 
 ---
