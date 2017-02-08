@@ -15,3 +15,4 @@ Throw in the copy, link to real sites, *enjoy* all the time you've *saved*.
 
 TODO //
 minify?
+Make generic
