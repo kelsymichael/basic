@@ -1,7 +1,6 @@
-
-Vue.component('coupon', {
+Vue.component('search-form', {
   template: `
-<div>
+  
   <form>
     <div class="row">
       <div class="offset-by-four four columns">
@@ -22,14 +21,20 @@ Vue.component('coupon', {
     <div class="row">
       <input class="offset-by-five two columns button-primary" type="submit" value="Submit">
     </div>
-    </form>
+    <coupon></coupon>
+  </form>
+  `,
+});
 
-    
+
+Vue.component('coupon', {
+  template: `
+    <div>
       <input placeholder='enter your coupon code' @blur='onCouponApplied'>
     </div>
 `,
   methods: {
-    onCouponApplied(){
+    onCouponApplied() {
       this.$emit('applied');
     },
     makeRequest() {
@@ -48,6 +53,8 @@ Vue.component('coupon', {
   }
 });
 
+
+
 new Vue({
   el: '#app',
   data: {
@@ -59,12 +66,3 @@ new Vue({
     }
   }
 });
-
-
-
-
-
-
-
-
-

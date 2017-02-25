@@ -13,8 +13,10 @@
   <div id="app" class="container" style="background-color: #efefef">
     
     <div class="row">
+      <search-form></search-form>
       <coupon @applied='onCouponApplied'></coupon>
       <h1 v-if='couponApplied'>you need a coupon!</h1> 
+  
     </div>
 
   </div>
