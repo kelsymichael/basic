@@ -4,14 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>kelsy.design</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
   <script src="https://unpkg.com/vue@2.1.10/dist/vue.js" defer></script>
   <script src="main.js" defer></script>   
+
 </head>
 <body>
-  <div id="app">
-    {{ test }}
-  </div>
+  <div id="app" class="container" style="background-color: #efefef">
+    
+    <div class="row">
+      <coupon @applied='onCouponApplied'></coupon>
+      <h1 v-if='couponApplied'>you need a coupon!</h1> 
+    </div>
 
-  
+  </div>
 </body>
 </html>
