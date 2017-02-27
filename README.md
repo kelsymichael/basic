@@ -1,4 +1,5 @@
 # basic
 ---
 
-Going through Vue.js, seeing if this turns into something
+Experiment with a stream of terrible code and commits.
+This place is to be ignored.
