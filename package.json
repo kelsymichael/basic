@@ -18,6 +18,8 @@
   "homepage": "https://github.com/kelsymichael/basicbitch#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jscs-stylish": "^1.4.0",
     "gulp-jshint": "^2.0.4",
     "gulp-load-tasks": "^0.8.4",
     "jshint": "^2.9.4",
