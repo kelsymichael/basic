@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kelsymichael/basicbitch#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-load-tasks": "^0.8.4"
   }
 }
