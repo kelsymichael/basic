@@ -1,3 +1,5 @@
 module.exports = [[
-  'gulp-test'
+  'gulp-test',
+  'jscs',
+  'jshint'
 ]];

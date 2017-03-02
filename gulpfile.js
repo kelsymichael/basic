@@ -5,4 +5,4 @@ const gulp = require('gulp');
 // as if we used gulp.task etc.
 require('gulp-load-tasks')('gulp_tasks');
 
-gulp.task('default', () => console.log('gulp is running!'));
+// gulp.task('default', () => console.log('gulp is running!'));
