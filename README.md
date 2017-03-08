@@ -8,3 +8,5 @@ This place is to be ignored.
 
 ### Mini Project
 [ ] countdown
+[ ] date
+[ ] time
