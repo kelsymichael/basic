@@ -10,3 +10,4 @@ This place is to be ignored.
 [ ] countdown
 [ ] date
 [ ] time
+  [ ] - minify
