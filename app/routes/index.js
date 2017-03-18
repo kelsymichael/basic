@@ -2,11 +2,17 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', function(req, res){
-  res.send('<h1>HOME</h1>');
+  res.send(`
+    <h1>HOME</h1>
+    <script src='/reload/reload.js'></script>
+  `);
 });
 
 router.get('/writings', function(req, res){
-  res.send('<h1>WRITINGS</h1>');
+  res.send(`
+  <h1>WRITINGSanother</h1>
+  <script src='/reload/reload.js'></script>
+  `);
 });
 
 router.get('/doodles', function(req, res){
