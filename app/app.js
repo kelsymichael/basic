@@ -1,6 +1,6 @@
-var express  = require('express');
-const reload = require('reload');
-var app      = express();
+const express = require('express');
+const reload  = require('reload');
+const app     = express();
 
 app.set('port', process.env.PORT || 3000);
 app.set('view engine', 'pug');
