@@ -4,7 +4,7 @@
   "description": "junk project",
   "main": "app/app.js",
   "scripts": {
-    "start": "nodemon -e css,ejs,js,json --watch app"
+    "start": "nodemon -e css,pug,js,json --watch app"
   },
   "repository": {
     "type": "git",

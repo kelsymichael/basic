@@ -2,7 +2,11 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', function(req, res){
-  res.render('index', {title: 'hey', message: 'hellow there'});
+  res.render('index', {
+    poop: 'hey', 
+    message: 'hellow there',
+    script: '/reload/reload.js'
+  });
 });
 
 router.get('/writings', function(req, res){
