@@ -1,1 +1,0 @@
-module.exports = () => console.log('gulp is running!');
