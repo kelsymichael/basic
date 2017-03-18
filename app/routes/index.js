@@ -2,10 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', function(req, res){
-  res.send(`
-    <h1>HOME</h1>
-    <script src='/reload/reload.js'></script>
-  `);
+  res.render('index', {title: 'hey', message: 'hellow there'});
 });
 
 router.get('/writings', function(req, res){

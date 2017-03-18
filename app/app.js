@@ -3,6 +3,8 @@ const reload = require('reload');
 var app = express();
 
 app.set('port', process.env.PORT || 3000);
+app.set('view engine', 'pug');
+app.set('views', 'app/views');
 
 // express.static allows all routes to have
 // acces to what is in the /public folder
