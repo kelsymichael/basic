@@ -1,12 +1,12 @@
 {
-  "name": "github-battle",
+  "name": "junkapp",
   "version": "1.0.0",
   "description": "Project for React Training's fundamental course.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open"
   },
-  "author": "Tyler McGinnis",
+  "author": "Kelsy Gagnebin",
   "license": "MIT",
   "babel": {
     "presets": ["env", "react"]
