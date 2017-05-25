@@ -1,7 +1,7 @@
 import React from 'react';
 
 /* stateless functional component */
-const Header = (props) => {
+const NotFound = (props) => {
   return(
     <div>
       <p>headeasdfasdfr</p>
@@ -10,4 +10,4 @@ const Header = (props) => {
     )
 }
 
-export default Header;
+export default NotFound;
